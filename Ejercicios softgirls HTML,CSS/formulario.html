@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Mis reservas</li>
+                <li>Registrarse</li>
+                <li>Iniciar sesión</li>
+            </ul>
+        </nav>
+        
+        <div id="info_form">
+            <h1>Mi primer formulario HTML</h1>
+            <p>Este <b>formulario</b> pide algunos <u>datos</u> para hacer una <em>reserva</em> en un restaurante</p>
+            <h2>¡Haz tu reserva!</h2>
+            <img src="Imagenes/hotel.jpg" alt="">
+        </div>
+
+        <div class="container">
+            <form action="">
+                <label for="nombre">Nombre<br></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                <br>
+
+                <label for="cedula">Cédula<br></label>
+                <input type="text" id="cedula" name="cedula" placeholder="Cedula">
+                <br>
+
+                <label for="descuento_reserva">Código descuento<br></label>
+                <input type="password" id="descuento_reserva" name="descuento_reserva" placeholder="Descuento_reserva"><br>
+                <br>
+
+                <label for="fecha_reserva">Fecha Reserva</label>
+                <input type="date" id="fecha_reserva" name="fecha_reserva" placeholder="Fecha De La Reserva">
+
+                <label for="hora_reserva">Hora Reserva</label>
+                <input type="time" id="hora_reserva" name="hora_reserva" placeholder="Hora De La Reserva">
+                <br>
+
+                <label for="cantidad_ninos">Cantidad Niños 
+                    <select name="cantidad_ninos" id="cantidad_ninos">
+                        <option value="" disabled selected>Elige una cantidad</option>
+                        <option value="uno">1</option>
+                        <option value="dos">2</option>
+                        <option value="tres">3</option>
+                        <option value="mas">Más</option>
+                    </select>
+                </label>
+
+                <p>¿Mascotas?</p>
+                <input type="radio" id="mascota_si" name="mascota" value="si">
+                <label for="mascota_si">Sí</label>
+                
+                <input type="radio" id="mascota_no" name="mascota" value="no">
+                <label for="mascota_no">No</label><br><br>
+            </form>
+        </div>
+    </body>
+</html>
