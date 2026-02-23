@@ -8,10 +8,10 @@
     <body>
         <nav>
             <ul>
-                <li>Inicio</li>
-                <li>Mis reservas</li>
-                <li>Registrarse</li>
-                <li>Iniciar sesión</li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mis reservas</a></li>
+                <li><a href="#">Registrarse</a></li>
+                <li><a href="#">Iniciar sesión</a></li>
             </ul>
         </nav>
         
@@ -21,15 +21,16 @@
             <h2>¡Haz tu reserva!</h2>
             <img src="Imagenes/hotel.jpg" alt="">
         </div>
+        <br>
 
         <div class="container">
-            <form action="">
+            <form action="#" method="#">
                 <label for="nombre">Nombre<br></label>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
                 <br>
 
                 <label for="cedula">Cédula<br></label>
-                <input type="text" id="cedula" name="cedula" placeholder="Cedula">
+                <input type="text" id="cedula" name="cedula" placeholder="Cedula"><br>
                 <br>
 
                 <label for="descuento_reserva">Código descuento<br></label>
@@ -37,10 +38,11 @@
                 <br>
 
                 <label for="fecha_reserva">Fecha Reserva</label>
-                <input type="date" id="fecha_reserva" name="fecha_reserva" placeholder="Fecha De La Reserva">
+                <input type="date" id="fecha_reserva" name="fecha_reserva" placeholder="Fecha De La Reserva"><br>
+                <br>
 
                 <label for="hora_reserva">Hora Reserva</label>
-                <input type="time" id="hora_reserva" name="hora_reserva" placeholder="Hora De La Reserva">
+                <input type="time" id="hora_reserva" name="hora_reserva" placeholder="Hora De La Reserva"><br>
                 <br>
 
                 <label for="cantidad_ninos">Cantidad Niños 
@@ -59,6 +61,8 @@
                 
                 <input type="radio" id="mascota_no" name="mascota" value="no">
                 <label for="mascota_no">No</label><br><br>
+
+                <button type="submit">Hacer Reserva</button>
             </form>
         </div>
     </body>
