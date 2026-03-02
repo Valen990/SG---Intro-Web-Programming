@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios En HTML</title>
+</head>
+<body>
+    <h1>Formulario de información personal</h1>
+    <form action="" method="post">
+        <!-- Etiquetas de tipo input -->
+        <label for="student_name">Nombre Completo</label>
+        <input type="text" name="student_name" id="student_name">
+        <br><br>
+
+        <label for="student_age">Edad</label>
+        <input type="number" name="student_age" id="student_age" min="10" max="70">
+        <br><br>
+
+        <label for="student_date">Fecha de Nacimiento</label>
+        <input type="date" name="student_date" id="student_date">
+        <br><br>
+
+        <label for="student_color">Color que te identifica</label>
+        <input type="color" name="student_color" id="student_color">
+        <br><br>
+
+        <label for="">Fecha y hora de ingreso</label>
+        <input type="datetime" name="student_date2" id="student_date2">
+        <br><br>
+
+        <label for="">Correo</label>
+        <input type="email" name="student_email" id="student_email">
+        <br><br>
+
+        <label for="">Archivo de su documento de identidad</label>
+        <input type="file" name="student_file" id="student_file">
+        <br><br>
+        
+        <label for="">Contraseña</label>
+        <input type="password" name="student_password" id="student_password">
+        <br><br>
+
+        <label for="student_gender_masculino">Masculino</label>
+        <input type="radio" name="student_gender_masculino" id="student_gender_masculino">
+        <br><br>
+
+        <label for="student_gender_femenino">Femenino</label>
+        <input type="radio" name="student_gender_femenino" id="student_gender_femenino">
+        <br><br>
+
+        <label for="">Preferencia Deportiva</label>
+        <br>
+
+        <label for="Futbol">Futbol</label>
+        <input type="checkbox" name="Futbol" id="Futbol">
+
+        <label for="Futbol">Basquet</label>
+        <input type="checkbox" name="Basquet" id="Basquet">
+
+        <label for="Futbol">Voleybol</label>
+        <input type="checkbox" name="Voleybol" id="Voleybol">
+
+        <label for="Futbol">Boxeo</label>
+        <input type="checkbox" name="Boxeo" id="Boxeo">
+        <br><br>
+
+        <label for="comments">Comentarios</label>
+        <textarea name="comments" id="comments"></textarea>
+        <br><br>
+
+        <select name="student_food" id="student_food">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
